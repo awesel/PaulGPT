@@ -2,7 +2,8 @@
 
 This contains a few fine-tuned Gemma models intended to sound like Paul Graham.
 
-Round 1: Fail! Overfit, catastrophic forgetting. Fine-tuned from Gemma-7B\n
+Round 1: Fail! Overfit, catastrophic forgetting. Fine-tuned from Gemma-7B
+
 Round 2: Success! Pretty reasonable result. Adopts more casual structure and some of Paul's opinions and writing style. Fine-tuned from Gemma-3-4B
 
 The .gitignore is set to ignore the full model weights. So, if you want to run inference, you need to download the appropriate quantized file from Hugging Face. For the Round 2 (successful run), download https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/tree/main using "huggingface download".
