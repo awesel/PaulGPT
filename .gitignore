@@ -1,0 +1,7 @@
+.env
+inference/llama.cpp
+inference/models
+inference/.cache
+inference/examples
+training/round1
+training/round2
