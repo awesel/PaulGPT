@@ -12,7 +12,7 @@ You can read my full narrative about the process of making this model on my blog
 - git clone https://github.com/awesel/PaulGPT
 - cd PaulGPT
 - huggingface-cli login (enter your huggingface access token here)
-- huggingface download https://huggingface.co/google/gemma-3-4b-it-qat-q4_0-gguf/tree/main
+- huggingface-cli download google/gemma-3-4b-it-qat-q4_0-gguf gemma-3-4b-it-q4_0.gguf
 - Set your paths in inference.py. The LoRA path should go to the Round-2-F16-LoRA.gguf file, and the model file should go to the .gguf file you just downloaded.
 - cd inference
 - python inference.py
