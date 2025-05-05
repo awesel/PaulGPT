@@ -16,6 +16,7 @@ You can read my full narrative about the process of making this model on my blog
 - Set your paths in inference.py. The LoRA path should go to the Round-2-F16-LoRA.gguf file, and the model file should go to the .gguf file you just downloaded.
 - cd inference
 - python inference.py
+  
 Enjoy! The model is tiny and runs at 10-15 tok/second on my Macbook Pro with 24 gb RAM. If inference doesn't work, try not loading both models into memory at the same time.
 
 Please reach out if generate anything funny using this repo! awesel [at] stanford [dot] edu
