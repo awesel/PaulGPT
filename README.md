@@ -6,7 +6,7 @@ Round 1: Fail! Overfit, catastrophic forgetting. Fine-tuned from Gemma-7B
 
 Round 2: Success! Pretty reasonable result. Adopts more casual structure and some of Paul's opinions and writing style. Fine-tuned from Gemma-3-4B
 
-You can read my full narrative about the process of making this model on my blog awesel.com
+You can read my full narrative about the process of making this model on my blog https://awesel.com/paulgpt
 
 ## How to generate tokens with this model
 - git clone https://github.com/awesel/PaulGPT
