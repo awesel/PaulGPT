@@ -12,12 +12,12 @@ You can read my full narrative about the process of making this model on my blog
 - git clone https://github.com/awesel/PaulGPT
 - cd PaulGPT
 - huggingface-cli login (enter your huggingface access token here)
-- huggingface-cli download google/gemma-3-4b-it-qat-q4_0-gguf gemma-3-4b-it-q4_0.gguf
-- Set your paths in inference.py. The LoRA path should go to the Round-2-F16-LoRA.gguf file, and the model file should go to the .gguf file you just downloaded.
+- huggingface-cli download google/gemma-3-4b-it-qat-q4_0-gguf gemma-3-4b-it-q4_0.gguf --local-dir .
 - cd inference
 - python inference.py
+- You will be prompted to choose whether to load both the base and fine-tuned model at the same time, or just talk to one. Then, you will be able to ask questions!
   
-Enjoy! The model is tiny and runs at 10-15 tok/second on my Macbook Pro with 24 gb RAM. If inference doesn't work, try not loading both models into memory at the same time.
+Enjoy! The model is tiny and runs at 10-15 tok/second on my Macbook Pro with 24 gb RAM.
 
 Please reach out if generate anything funny using this repo! awesel [at] stanford [dot] edu
 
